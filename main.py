@@ -22,12 +22,27 @@ def new_pass():
     password_list.append(website_entry)
     print(password_list)
 
+# def find():
+#     website = input("Which website?: ")
+#     for entry in password_list:
+#         if found_website == entry.get['website']:
+#             print(entry['username'])
+#             print(entry['password'])
+#         else:
+#             print("Website doesn't exist")
+    
+
+
 #input info to be saved
 while True:
     user_choice = input(">")
 
-    if user_choice == 'new':
+    if (user_choice == 'new'):
         new_pass()
+    elif (user_choice = 'find'):
+        find()
+    else:
+        continue
     
 
 
